@@ -26,7 +26,7 @@ namespace Watki
             {
                 for (int col = 0; col < cols; col++)
                 {
-                    matrix[row, col] = random.Next(1,100);
+                    matrix[row, col] = random.Next(1,10);
                 }
             }
         }
